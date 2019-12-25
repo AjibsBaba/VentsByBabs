@@ -14,7 +14,7 @@ class Post(models.Model):
         ('T', 'Transgender'),
         ('Q', 'Queer'),
     )
-    title = models.CharField(max_length=40, help_text="THis should contain the subject topic of your post")
+    title = models.CharField(max_length=40, help_text="This should contain the subject topic of your post")
     gender = models.CharField(max_length=1, choices=GENDER_TYPES)
     content = models.TextField(max_length=200)
     date_posted = models.DateTimeField(default=timezone.now)
