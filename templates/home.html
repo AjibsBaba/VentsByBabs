@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-sm">
             {% for post in posts %}
+                <h2>{{ post.title }}</h2>
                 <h3>{{ post.content }}<h3>
                 <h6 class="date-posted"> On {{ post.date_posted }}</h6>
             {% endfor %}
