@@ -2,13 +2,14 @@
 {% load crispy_forms_tags %}
 {% block content %}
 <div class="container">
+  <a href="{% url 'home' %}" class="mt-3 btn-floating pulse btn-large waves-effect waves-light blue-grey"><i class="material-icons">vent</i></a>
     <form method="POST">
         {% csrf_token %}
             <fieldset class="form-group">
-                <h1 class="display-4 text-center">Type message</h1>
-               <p class="z-depth-1">{{ form|crispy }}</p>
+                <h1 class="mt-1 display-4 text-center">Type message</h1>
+               <p class="form-text z-depth-1">{{ form|crispy }}</p>
             </fieldset>
-        <button class="btn btn-block waves-effect waves-light text-center" type="submit" name="action">Submit
+        <button class="mb-3 btn btn-block waves-effect waves-light text-center" type="submit" name="action">Submit
             <i class="material-icons right"></i>
         </button>
     </form>
