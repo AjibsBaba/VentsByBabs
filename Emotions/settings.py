@@ -14,7 +14,7 @@ SECRET_KEY = 'aw)pk(%^l=59=wmjzzq^cw+bi#!uqax!b0i&7-ea8ee*$pb@o4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['vents.herokuapp.com', 'restyframe.azurewebsites.net', '127.0.0.1:8000', '127.0.0.1']
+ALLOWED_HOSTS = ['vents.herokuapp.com', '127.0.0.1:8000', '127.0.0.1']
 
 
 # Application definition
