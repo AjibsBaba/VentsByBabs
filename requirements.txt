@@ -1,4 +1,4 @@
-sgiref==3.2.3
+# sgiref==3.2.3
 Django==3.0.7
 django-crispy-forms==1.9.0
 django-user-tracking==0.4.11
