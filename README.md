@@ -13,8 +13,8 @@ A django based messaging wall
 
 ### Installation
 
-This project requires [Python 3.6](https://www.python.org/) or greater run.
-It is currently being hosted on [VentsByBabs](https://vents.herokuapp.com/)
+This project requires [Python 3.6](https://www.python.org/) or greater to run.
+
 
 
 
